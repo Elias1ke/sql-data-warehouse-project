@@ -1,6 +1,8 @@
-# sql-data-warehouse-project
+# Data Warehouse and Analytics Project
+
 Building a modern data warehouse with SQL, including ETL processes, data modelling and analytics.
  The project follows a structured Medallion Architecture, organizing data into bronze, silver, and gold layers to simulate professional engineering workflows. It covers the complete ETL (Extract, Transform, Load) process, including the ingestion of raw CSV files and the application of data cleansing and business logic. Beyond technical coding, the source emphasizes the role of a data architect by teaching data modeling, naming conventions, and the creation of project plans in Notion. 
+
 
 How does Medallion architecture organize data into different layers?
 Explain the role of ETL in modern data warehousing.
@@ -11,6 +13,7 @@ write me a summary to include in read me github file
 This project demonstrates the end-to-end development of a modern SQL Data Warehouse from scratch, implementing real-world industry standards and best practices
 . The project covers the entire data engineering lifecycle, including data architecture design, ETL/ELT processing, data modeling, and documentation
 .
+
 Project Overview
 The primary objective of this project is to build a centralized data management system using SQL Server to consolidate sales data from multiple sources (CRM and ERP systems)
 . By transforming raw data into a structured format, the warehouse enables analytical reporting and informed business decision-making
@@ -36,6 +39,7 @@ Data Quality & Validation: Built rigorous quality check scripts to identify issu
 .
 Advanced SQL Techniques: Utilized window functions (e.g., ROW_NUMBER, LEAD), complex CASE logic for data integration, and bulk inserts for high-performance loading
 .
+
 Technical Stack
 Database: SQL Server (SQL Server Express)
 Environment: SQL Server Management Studio (SSMS)
